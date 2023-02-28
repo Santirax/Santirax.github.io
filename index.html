@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Erick Santillan</h1>
+		                <h2 class="desc">Desarrollador de Software</h2>   
+		                <ul class="social list-inline">
+                            <li class="list-inline-item"><a href="#aquiVaCV"><i class="fab fa-pagelines"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://mx.linkedin.com/in/erick-ignacio-santillan-zaragoza"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/Santirax"><i class="fab fa-github-alt"></i></a></li>                  
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Modo Obscuro</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="https://t.me/+525544852194" target="_blank"><i class="fas fa-paper-plane"></i> Contáctame</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Sobre mí</h2>
+                        <div class="content">
+                            <p> Actualmente estudio en la Escuela Superior de Cómputo (ESCOM-IPN), colaboré 5 años dentro del Club de Algoritmia para las competencias de programación competitiva ICPC. 
+                                Tuve varias pasantías en MS, por el momento estoy empezando a colaborar en Curies Community y desarrollo mi tesis enfocada en IoT. 
+                                Me gusta comer, ver memes, dormir; amo Halo, Xbox contrátame xD.
+                                CR7 me ayuda a levantarme temprano todos los días, SIUUUU!
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Proyectos</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://youtu.be/9DVf0TrXdqM" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">Nuevo</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://youtu.be/uDKt2lD24SU" target="_blank">Tesis: Prototipo de Sistema de Rastreo para personas con Alzheimer mediante IoT.</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>El sistema hace uso de un módulo GPS para obtener la ubicación del paciente la cual será enviada, mediante un procesador y un módulo de comunicación que utiliza el sistema de comunicaciones móviles, a una aplicación móvil para
+                                        visualizar la información recibida.</p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="https://youtu.be/uDKt2lD24SU" target="_blank"><i class="fas fa-thumbs-up"></i> Evidencia. </a>                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Topología de Redes en GNS3 montada en Azure</a></h3>
+                                    <p class="mb-2">Usando Azure se montó el servidor de GNS3 y en las computadoras se accedía al proyecto donde se uso OSPF para el enrutamiento, VLAN, Switches multicapa añadiendo servicios como DNS, DHCP, SMTP. Desarrollado con @elissabj.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Se acabó el crédito de Azure Students.</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://youtu.be/cvC0F9PEzcg" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://youtu.be/cvC0F9PEzcg" target="_blank">Calculadora de integrales con Teorema del Residuo</a></h3>
+                                    <p class="mb-2">Calculadora de números imaginarios con resolución de integrales con Teorema del Residuo, desarrollado en Python3 con @elissabj.</p>
+                                    <p><a class="more-link" href="https://youtu.be/cvC0F9PEzcg" target="_blank"><i class="fas fa-external-link-alt"></i>Evidencia</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" href="https://appadvice.com/app/mathfg/1244478299" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://appadvice.com/app/mathfg/1244478299" target="_blank">App Educativa MathFG</a></h3>
+                                    <p class="mb-2">mathFG resuelve ecuaciones de segundo grado con todo y su procedimiento de la forma mas clara posible. Ya no está disponible, queda el recuerdo del pasado. ):</p>
+                                    <p><a class="more-link" href="https://appadvice.com/app/mathfg/1244478299" target="_blank"><i class="fas fa-external-link-alt"></i>Más detalles</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                                                
+                           
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Experiencia Laboral</h2>
+                        <div class="content">
+
+                            <div class="item">
+                                <h3 class="title">Pasantía Explore <span class="place"><a href="https://careers.microsoft.com/students/us/en/usuniversityinternship"> Microsoft</a></span> <span class="year">(2021)</span></h3>
+                                <p>Servicio de autenticación para provedores de correo. C#.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Pasantía SWE <span class="place"><a href="https://careers.microsoft.com/students/us/en/usuniversityinternship"> Microsoft</a></span> <span class="year">(2022)</span></h3>
+                                <p>Nuevas features para Outlook team. C++.</p>
+                            </div><!--//item-->
+                           
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+            
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Ciudad de México, MX.</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">erick0618@yahoo.com.mx</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://santirax.github.io/</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Lenguajes de Programación</h2>
+                        <div class="content">
+                            <p class="intro">
+                                
+                                <!-- Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p> -->
+                            
+                            <div class="skillset">
+                                <div class="item">
+                                    <h3 class="level-title">C++<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Programación competitiva, pasantías en Microsoft"><i class="fas fa-info-circle"></i>Avanzado</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="86"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">C<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Mayormente para renderizar lineas, curvas, procesar imágenes bmp"><i class="fas fa-info-circle"></i>Intermedio</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 50%" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="50"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+
+
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Para Transformada de Fourier"><i class="fas fa-info-circle"></i>Intermedio</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 50%" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="50"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Servidor web, threads"><i class="fas fa-info-circle"></i>Intermedio</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 50%" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="50"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Objective-C<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Creación de la App MathFG"><i class="fas fa-info-circle"></i>Básico</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 45%" aria-valuenow="45"  aria-valuemin="0" aria-valuemax="45"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                <p><a class="more-link" href="https://github.com/Santirax"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Tecnologías</h2>
+                        <div class="content">
+                            <p class="intro">
+                                
+                                <!-- Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p> -->
+                            
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">Azure<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="IaaS, PaaS"><i class="fas fa-info-circle"></i>Básico</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 35%" aria-valuenow="35"  aria-valuemin="0" aria-valuemax="35"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">GitHub<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Repositorios para programación competitiva"><i class="fas fa-info-circle"></i>Básico</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 35%" aria-valuenow="35"  aria-valuemin="0" aria-valuemax="35"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML, CSS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Proyectos web"><i class="fas fa-info-circle"></i>Intermedio</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 50%" aria-valuenow="50"  aria-valuemin="0" aria-valuemax="50"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Android Studio<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Desarrollo App para Tesis"><i class="fas fa-info-circle"></i>Intermedio</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 60%" aria-valuenow="60"  aria-valuemin="0" aria-valuemax="60"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Educación</h2>
+                        <div class="content">
+                            
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Ingeniería en Sistemas Computacionales</h3>
+                                <h4 class="university">Escula Superior de Cómputo (ESCOM-IPN) <span class="year">(2018-2023)</span></h4>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Idiomas</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Español:</strong></span>
+                                    <span class="level">Nativo <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Inglés:</strong></span>
+                                    <span class="level"> B2 <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section--> 
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Canciones para programar</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=aDCcLQto5BM">me rehúso</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=qqqMyxv5al4">oye mujer</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Vdt8d1zkeXY">la despedida</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+              
+             
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Edited with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">@elissabj template of : Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
